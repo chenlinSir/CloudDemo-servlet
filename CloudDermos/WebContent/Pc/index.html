@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+<link href="css/owl.theme.css" rel="stylesheet">
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Cinzel:400,700,900" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<script>
+$(document).ready(function() { 
+	$("#owl-demo").owlCarousel({
+ 
+		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		autoPlay:true,
+		items : 4,
+		itemsDesktop : [640,5],
+		itemsDesktopSmall : [414,4]
+ 
+	});
+	
+}); 
+</script>
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner jarallax">
+		<div class="banner-dot">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-left">
+						<p><i class="fa fa-home" aria-hidden="true"></i> 1st Street , main road</p>
+					</div>
+					<div class="header-top-right">
+						<p><i class="fa fa-phone" aria-hidden="true"></i> +135 9559 4303</p>
+					</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="container">
+					<div class="header-left">
+						<div class="w3layouts-logo">
+							<h1>
+								<a href="index.html">Maintenance</a>
+							</h1>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-slider">
+				<div class="container">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>
+									<div class="agileits-banner-info">
+										<h3>Learn more<span>just do it</span></h3>
+										<div class="w3-button">
+											<a href="single.html">More</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info">
+										<h3>High efficiency<span>help people</span></h3>
+										<div class="w3-button">
+											<a href="single.html">More</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager:true,
+								nav:true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						 </script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+			<div class="header-right">
+				<div class="container">
+						<div class="top-nav">
+							<nav class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<!--navbar-header-->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href="index.html" class="active">Home</a></li>
+										<li><a href="about.html">About</a></li>
+										<li><a href="gallery.html">Gallery</a></li>
+										<li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recruit<span class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a class="hvr-bounce-to-bottom" href="icons.html">Icons</a></li>
+												<li><a class="hvr-bounce-to-bottom" href="typography.html">Typography</a></li>          
+											</ul>
+										</li>	
+										<li><a href="Information Center.html">Information Center</a></li>
+										<li><a href="contact.html">Contact Us</a></li>
+									</ul>	
+									<div class="clearfix"> </div>	
+								</div>
+							</nav>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+			</div>
+			<div class="banner-social">
+				<div class="container">
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<div class="w3ls-welcome-grids">
+				<div class="col-md-4 w3l-welcome-left">
+					<h2>Welcome</h2>
+					<h5>Yunduan Automobile Maintenance Center.Yunduan Automobile Maintenance Center.</h5>
+					<p>I think of the time when I went to catch ginseng. At that time, ginseng ran ahead, I chased behind, chasing after, and ginseng and I ran up to Mount Everest. At that time, I knew that ginseng had reached its peak.</span></p>
+				</div>
+				<div class="col-md-4 w3l-welcome-img">
+				
+				</div>
+				<div class="col-md-4 w3l-welcome-right">
+					<h3>History of us</h3>
+					<h5>Yunduan Automobile Maintenance Center.Yunduan Automobile Maintenance Center.</h5>
+					<p>
+
+We are a strong maintenance team composed of six people, mainly James Thomas. They are strong backup. They are very helpful and understanding for our study. I love them and get along with them very friendly. We will grow stronger and stronger.<span>I think of the time when I went to catch ginseng. At that time, ginseng ran ahead, I chased behind, chasing afterI knew that ginseng had reached its peak.</p>
+					<div class="w3l-button">
+						<a href="single.html">More</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- services -->
+	<div class="services">
+		<div class="col-md-5 w3ls-services-left">
+			
+		</div>
+		<div class="col-md-7 w3ls-services-right">
+			<h3>Our Services</h3>
+			<div class="w3ls-services-icons">
+				<div class="agileits-icon-grid">
+					<div class="icon-left hvr-radial-out">
+						<i class="fa fa-cog" aria-hidden="true"></i>
+					</div>
+					<div class="icon-right">
+						<h5>Vehicle maintenance.</h5>
+						<p>Repair the damaged parts of your car so that your car can run on the broad road again, and we provide quality service, so that you can't stop.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="agileits-icon-grid">
+					<div class="icon-left hvr-radial-out">
+						<i class="fa fa-heart" aria-hidden="true"></i>
+					</div>
+					<div class="icon-right">
+						<h5>Car beauty and witch.</h5>
+						<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="agileits-icon-grid">
+					<div class="icon-left hvr-radial-out">
+						<i class="fa fa-paper-plane" aria-hidden="true"></i>
+					</div>
+					<div class="icon-right">
+						<h5>Door-to-door service.</h5>
+						<p>We also provide high-quality door-to-door service, so that you can enjoy the high-quality service of our employees in a single phone call at home, and we are 24 hours online</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //services -->
+	<!-- work -->
+	<div class="work">
+		<div class="container">
+			<div class="agileits-heading">
+				<h3>Latest work</h3>
+			</div>
+		</div>
+		<div class="work-grids">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w1.jpg" alt="" />
+							<div class="work-grid-caption"> 
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>No problem</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w2.jpg" alt="" />
+							<div class="work-grid-caption"> 
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>I love it</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w3.jpg" alt="" />
+							<div class="work-grid-caption"> 
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>No problem</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w4.jpg" alt="" />
+							<div class="work-grid-caption"> 
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>That's good</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w5.jpg" alt="" />
+							<div class="work-grid-caption"> 
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>No problem</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w6.jpg" alt="" />
+							<div class="work-grid-caption"> 
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>Fxxk off</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w7.jpg" alt="" />
+							<div class="work-grid-caption"> 
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>No problem</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="work-grid-info">
+							<img src="images/w1.jpg" alt="" />
+							<div class="work-grid-caption">
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<h4>Cosmetology</h4>
+								<p>No thanks</p>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- //work -->
+	<!-- testimonial -->
+	<div class="testimonial jarallax">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-heading testimonial-heading">
+					<h3>Best servicer</h3>
+				</div>
+				<div class="wthree-testimonial-grid">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides" id="slider3">
+								<li>
+									<div class="w3-agile-testimonial">
+										<div class="testimonial-info">
+											<h4>Good people and good temperament,Best boy</h4>
+											<p>I don't read much. Don't lie to me. It's from Bruce Lee's Jingwumen, starring Bruce Lee, Miao Kexiu and Tian Jun. It premiered in Hong Kong on March 22, 1972. This line is also made by the gods of the expression pack crazy spread with various chat software.</p>
+										</div>
+										<div class="testimonial-img">
+											<div class="testimonial-img-left">
+												<img src="images/ts1.jpg" alt="" />
+											</div>
+											<div class="testimonial-img-right">
+												<h5>Customer service</h5>
+												<p>I am a boy</p>
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</li>
+								<li>
+									<div class="w3-agile-testimonial">
+										<div class="testimonial-info">
+											<h4>Tongue is like a spring,Have a fine </h4>
+											<p>"If you don't give money, you don't sell it" is from the comedy film directed by Wang Jing, directed by Xu Jinjiang, Zhang Min, Wu Mengda and Zhou Xingchi in 1994. Great masters go to brothels to play, do not want to give money to talk to the bustard.</p>
+										</div>
+										<div class="testimonial-img">
+											<div class="testimonial-img-left">
+												<img src="images/ts2.jpg" alt="" />
+											</div>
+											<div class="testimonial-img-right">
+												<h5>Customer service</h5>
+												<p>I am a gril</p>
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</li>
+								<li>
+									<div class="w3-agile-testimonial">
+										<div class="testimonial-info">
+											<h4>Tongue is like a spring,Have a fine</h4>
+											<p>"You eat shit!" From the film "Mongkok Carmen", directed by Wang Jiawei, starring Liu Dehua, Zhang Manyu, Zhang Xueyou and Wan Ziliang. The film was released in Hong Kong, China, on June 9, 1988. Directed by Wang Jiawei, starring Liu Dehua, Zhang Manyu, Zhang Xueyou and Wan Ziliang.</p>
+										</div>
+										<div class="testimonial-img">
+											<div class="testimonial-img-left">
+												<img src="images/ts3.jpg" alt="" />
+											</div>
+											<div class="testimonial-img-right">
+												<h5>Customer service</h5>
+												<p>I am a gril</p>
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+								// Slideshow 4
+								$("#slider3").responsiveSlides({
+									auto: true,
+									pager:false,
+									nav:false,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+										$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});
+									
+							});
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //testimonial -->
+	<!-- subscribe -->
+	<div class="wthree-subscribe">
+		<div class="container">
+			<div class="agileits-heading">
+				<h3>Newsletter</h3>
+			</div>
+			<div class="w3-agileits-subscribe-form">
+				<form action="#" method="post">
+					<input type="text" placeholder="search" name="search" required="">
+					<button class="btn1">search</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //subscribe -->
+	<!-- footer -->
+	<div class="w3-agile-footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Address</h4>
+					</div>
+					<div class="footer-grid-info">
+						<p>Guizhou Aerospace Vocational and Technical College
+							<span>65 Ping'an Avenue,Zip codet 563000.</span>
+						</p>
+						<p class="phone">Phone : +135 9559 4303
+							<span>Email : <a href="#">2671412803@qq.com</a></span>
+							<span>FAX : <a href="#">123 456 789</a></span>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Navigation</h4>
+					</div>
+					<div class="footer-grid-info">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="icons.html">Icons</a></li>
+							<li><a href="typography.html">Typography</a></li>
+							<li><a href="Information Center.html">Information Center</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Newsletter</h4>
+					</div>
+					<div class="agile-footer-grid">
+						<ul class="w3agile_footer_grid_list">
+							<li>Lamborghinini, the company's new beauty product <a href="#">http://Lamborghinini.com</a> at list,for everybody.
+								<span><i class="fa fa-twitter" aria-hidden="true"></i> 02 days ago</span></li>
+							<li>Lamborghinini, the company's new beauty product <a href="#">http://Lamborghinini.com</a><span><i class="fa fa-twitter" aria-hidden="true"></i> 03 days ago</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<div class="footer-grid-heading">
+						<h4>Follow</h4>
+					</div>
+					<div class="social">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="agileits-w3layouts-copyright">
+				<p>Preson &copy; 2019.Company name All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/owl.carousel.js"></script>  
+</body>	
+</html>
